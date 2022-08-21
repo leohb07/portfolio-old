@@ -295,6 +295,12 @@ header .container .nav-list .h-list li a:hover {
   line-height: 3.2rem;
 }
 
+@media (max-width: 992px) {
+  #s-about .container #about p {
+    width: 100%;
+  }  
+}
+
 
 #s-project {
   padding: 96px 0px;
