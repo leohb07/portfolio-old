@@ -1,5 +1,5 @@
 const buttonElement = document.querySelector('header .nav-list #btn-mobile');
-const navLinks = document.querySelector('.h-list li a');
+const navLinks = document.querySelectorAll('.h-list li a');
 const logoScrollToTop = document.querySelector('header .nav-list h2');
 
 function toggleMenu() {

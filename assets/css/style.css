@@ -325,7 +325,14 @@ header .container .nav-list .h-list li a:hover {
 
 #s-project .container #project .project-cards {
   background-color: #333333;
-  padding: 24px 32px;
+  padding: 24px 48px;  
+  transition: transform .4s;
+  border-radius: .8rem; 
+  margin-bottom: 24px; 
+}
+
+#s-project .container #project .project-cards:hover {
+  transform: scale(1.1);
 }
 
 #s-project .container #project .project-cards h3 {
